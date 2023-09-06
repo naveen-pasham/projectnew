@@ -1,0 +1,7 @@
+function removeItem(e){
+  if(e.target.classList.contains('delete)){
+                                 var li= e.target.parentElemt;
+                                 itemList.removeChild(li);
+                                 }
+                                 }
+                                 }
